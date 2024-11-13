@@ -1,0 +1,460 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Poppins", sans-serif;
+}
+
+body {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+header {
+   display: flex;
+   padding: 40px 40px;
+   justify-content: space-between;
+   align-items: center;
+   background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
+
+}
+
+header .right {
+   display: flex;
+   align-items: center;
+   gap: 75px;
+}
+
+header .right .links {
+   display: flex;
+   gap: 62px;
+
+   & p {
+      color: rgba(255, 255, 255, 1);
+      font-size: 20px;
+   }
+}
+
+header .right .signin {
+   border-radius: 7px;
+   padding: 12px 32px 13px 25px;
+   background: rgba(188, 138, 252, 1);
+   box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+   font-size: 22px;
+   font-weight: 500;
+
+}
+
+main .start {
+   position: relative;
+   padding-top: 103px;
+   display: flex;
+   justify-content: space-between;
+   background: linear-gradient(143.87deg, #190422 21.1%, #190422 102.96%);
+   padding-bottom: 262px;
+}
+
+main .start .left {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   max-width: 631px;
+   gap: 32px;
+   padding-left: 40px;
+   padding-top: 86px;
+}
+
+main .start .left h1 {
+   font-size: 80px;
+   font-weight: 600;
+   color: rgba(255, 255, 255, 1);
+
+}
+
+main .start .left .text {
+   font-size: 20px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 1);
+
+}
+
+main .start .left button {
+   display: flex;
+   gap: 4px;
+   padding: 12px 24px 13px 25px;
+   border-radius: 7px;
+   background: rgba(188, 138, 252, 1);
+   box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+main .start .left button p {
+   font-size: 22px;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 1);
+
+
+}
+
+main .start .content {
+   max-width: 554px;
+   height: 581px;
+}
+
+main .service .card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgba(25, 4, 34, 1);
+   max-width: 80px;
+   height: 80px;
+   border-radius: 100px;
+}
+
+main .service .card img {
+   width: 40px;
+   height: 25px;
+}
+
+main .service .toplevel h3 {
+   padding-top: 36px;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+main .service .toplevel p {
+   padding-top: 12px;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+main .toplevel {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-column-gap: 173px;
+   grid-row-gap: 61px;
+}
+
+main .service {
+   padding-left: 40px;
+   background: conic-gradient(from -38.14deg at 72.08% 78.43%, rgba(28, 146, 255, 0) 0deg, #FFFFFF 360deg);
+
+   padding-top: 83px;
+   padding-bottom: 260px;
+}
+
+main .service h2 {
+   font-size: 48px;
+   font-weight: 600px;
+   padding-bottom: 40px;
+}
+
+main .high {
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 50px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   position: absolute;
+   bottom: -25%;
+   /* top: 88%; */
+   /* left: auto;
+   right:auto; */
+   z-index: 1000000000;
+   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+   border-radius: 16px;
+   width: 90%;
+   background: white;
+}
+
+main .high h1 {
+   font-size: 48px;
+   font-weight: 600;
+}
+
+main .high p {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+
+
+main .finances {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 258px;
+   padding-bottom: 107px;
+}
+
+main .finances .content {
+   max-width: 413px;
+   height: 609px;
+}
+
+main .finances .right {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   max-width: 611px;
+   gap: 16px;
+   padding-left: 40px;
+   padding-top: 86px;
+}
+
+main .finances .right h1 {
+   font-size: 48px;
+   font-weight: 600;
+   color: rgba(0, 0, 0, 1);
+
+}
+
+main .finances .right .text {
+   font-size: 20px;
+   font-weight: 400;
+   color: rgba(0, 0, 0, 1);
+
+}
+
+main .finances .right button {
+   display: flex;
+   gap: 4px;
+   padding: 12px 24px 13px 25px;
+   border-radius: 7px;
+   background: rgba(188, 138, 252, 1);
+   box-shadow: 10px 7px 9px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+main .finances .right button p {
+   font-size: 22px;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 1);
+
+
+}
+
+main .download .left h2 {
+   font-size: 48px;
+   font-weight: 600;
+   color: rgba(255, 255, 255, 1);
+
+}
+
+main .download {
+   display: flex;
+   gap: 53px;
+   padding-bottom: 80px;
+   padding: 107px 80px 156px 80px;
+   position: relative;
+   background: rgba(25, 4, 34, 1);
+   border: 1.02px solid rgba(117, 117, 117, 1);
+
+   & .stat {
+      position: absolute;
+      max-width: 414px;
+      height: 612px;
+      /* top: -190px; */
+      bottom: -1px;
+      right: 125px;
+      z-index: 1000;
+   }
+
+}
+
+main .download .left {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+}
+
+main .download .buttoninstall {
+   padding-top: 42px;
+   display: flex;
+   gap: 38px;
+}
+
+main .download .buttoninstall button {
+   border: 0;
+   width: 204px;
+   height: 60px;
+   border-radius: 12px;
+}
+
+main .download .buttoninstall .btn-1 .google {
+   background-image: url(images/image2.svg);
+}
+
+main .download .buttoninstall .btn .apple {
+   background-image: url(images/image\ 3.svg);
+}
+
+.benefits {
+   display: flex;
+   gap: 172px;
+   padding-left: 145px;
+   padding-top: 85px;
+   padding-bottom: 80px;
+
+   & h3 {
+      font-size: 48px;
+      font-weight: 600;
+
+   }
+}
+
+.benefits .right {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+
+   & p {
+      font-size: 20px;
+      font-weight: 400;
+   }
+}
+
+main .benefits .right .pointcheck img {
+   padding: 13px 10px;
+   border-radius: 100px;
+   border: 1.7px solid rgba(188, 138, 252, 1)
+}
+
+main .benefits .right .circle {
+   display: flex;
+   gap: 17px;
+   align-items: center;
+}
+
+.feedback .under {
+   display: flex;
+   gap: 46px;
+   align-items: center;
+   justify-content: center;
+
+   & .commentboth {
+      display: flex;
+      gap: 21px;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+.feedback .h4 {
+   text-align: center;
+   padding-bottom: 40px;
+}
+
+.feedback h4 {
+   font-size: 20px;
+   font-weight: 600;
+
+}
+
+.feedback p {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+main .feedback .comment {
+   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+   max-width: 522px;
+   border-radius: 28px;
+   padding: 24px;
+}
+
+.feedback .comment {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+
+}
+
+.feedback .comment .bottom {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   & .left {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+   }
+}
+
+.feedback .comment .bottom .text {
+   padding-right: 54px;
+}
+
+.feedback .arrow img {
+   padding: 10px 16px 9px 12px;
+   border-radius: 100px;
+   border: 1.7px solid rgba(188, 138, 252, 1)
+}
+
+.feedback .second img {
+   transform: rotate(-180deg);
+}
+
+.feedback {
+   padding-bottom: 85px;
+}
+
+footer {
+   background: rgba(25, 4, 34, 1);
+   display: flex;
+   padding-top: 72px;
+   padding-left: 80px;
+   padding-bottom: 71px;
+   flex-direction: column;
+
+   & .icon {
+      max-width: 167px;
+      padding-bottom: 26px;
+   }
+
+   & .links {
+      display: flex;
+      gap: 33px;
+
+      & p {
+         color: rgba(255, 255, 255, 1);
+      }
+
+      padding-bottom: 41px;
+   }
+
+   & .buttonslink {
+      display: flex;
+      gap: 21px;
+   }
+
+   & button {
+      background: none;
+      border: 0;
+   }
+}
+
+@media (max-width:1024px) {
+   main .start .left h1 {
+      font-size: 48px;
+   }
+
+   main .start .content {
+      max-width: 347px;
+      height: 396px;
+   }
+
+   main .download .left h2 {
+      font-size: 32px;
+
+   }
+
+   main .download .stat {
+      width: 273px;
+      height: 402px;
+   }
+
+   main .download {
+      padding: 32px;
+   }
+}
